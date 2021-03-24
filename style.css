@@ -13,7 +13,7 @@ main {
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
-    height: 370px;
+    height: auto;
 }
 
 
@@ -25,7 +25,7 @@ main {
     margin-left: 100px;
     margin-right: 100px;
     border: 1px solid black;
-    height: 400px;
+    height: auto;
     background-color: pink;
 }
 
@@ -33,7 +33,7 @@ main {
     background:pink;
     display: grid;
     grid-template-rows: 50px 1fr;
-    border: 3px, solid, black;
+    border: 1px, solid, black;
 }
 
 header {
@@ -47,7 +47,7 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     /* border: 1px solid black; */
-    height:350px;
+
 }
 
 .location-list {
@@ -57,40 +57,67 @@ header {
 .community {
 }
 
-.left-section * {
-    border: 1px solid black;
-    height: 95px;
-    margin: 5px;
-    padding:5px;
-    background-color:yellow;
+h3 {
+    margin: 0px;
+    padding: 0px;
+}
+.good-list {
+    list-style: none;
+    padding: 0;
+    column-count: 2;
+    font-family: sans-serif;
+    font-size: .8rem;
+
 }
 
-.middle-section * {
+.three-columns{
+    list-style: none;
+    padding: 0;
+    column-count: 3;
+    font-family: sans-serif;
+    font-size: .8rem;
+}
+
+
+.community li {
+
+}
+
+.services {
+
+}
+
+.discussion {
+
+}
+
+
+.boxes {
+    margin: 5px;
+    padding:5px;
+    background-color:yellow; 
+    border: 1px solid black;
+}
+
+/*.middle-section * {
     border: 1px solid black;
     height: 150px;
     margin: 5px 0px;
     padding:5px;
     background-color:yellow;
-}
+}*/
 
-.right-section * {
-    border: 1px solid black;
-    margin: 5px;
-    padding:5px;
-    background-color:yellow;
+.right-section {
 }
 
 .job {
-    height:250px;
 }
 
 .gig {
-    height: 50px;
 }
 
 .location-list {
     border: 1px solid black;
     margin: 5px;
     padding: 5px;
-    height: 370px;
 }
